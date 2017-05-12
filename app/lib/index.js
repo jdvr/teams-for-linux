@@ -14,7 +14,7 @@ let menus;
 
 
 app.on('ready', () => {
-  const iconPath = path.join(app.getAppPath(), 'lib/assets/icons/icon-96x96.png');
+  const iconPath = path.join(app.getAppPath(), 'lib/assets/icons/icon-24x24.png');
   const window = new BrowserWindow({
     width: 800,
     height: 600,
