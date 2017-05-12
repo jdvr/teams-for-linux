@@ -71,11 +71,10 @@ class Menus {
     this.tray = new Tray(this.iconPath);
     this.tray.setToolTip('Microsoft Teams');
     this.tray.on('click', () => {
-      if (window.isFocused()) {
+      if (window.isVisible()) {
         window.hide();
       } else {
         window.show();
-        window.focus();
       }
     });
     this.tray.setContextMenu(appMenu);

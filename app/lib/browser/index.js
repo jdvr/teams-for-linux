@@ -6,7 +6,7 @@
   const trayNotifications = require('./tray-notifications');
   const nativeNotifications = require('./native-notifications');
 
-  const iconPath = path.join(__dirname, '../assets/icons/icon-96x96.png');
+  const iconPath = path.join(__dirname, '../assets/icons/icon-24x24.png');
 
   trayNotifications({
     ipc: ipcRenderer,
