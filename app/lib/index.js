@@ -23,6 +23,7 @@ app.on('ready', () => {
 
     webPreferences: {
       partition: 'persist:teams',
+      zoomFactor: 1.4,
       preload: path.join(__dirname, 'browser', 'index.js'),
       nodeIntegration: false
     }

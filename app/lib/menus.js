@@ -60,6 +60,9 @@ class Menus {
       {
         label: 'Help',
         submenu: [
+          { role: 'zoomin'},      // <--- ¡¡A-há!!
+          { role: 'zoomout'},     // <--- ¡¡A-há!!
+          { role: 'resetzoom' },  // <--- ¡¡A-há!!
           {
             label: 'Online Documentation',
             click: () => open('https://support.office.com/en-us/teams?omkt=en-001')
